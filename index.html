@@ -1,112 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>❤️ Love Project ❤️</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Love Project</title>
 </head>
-
 <body>
 
-    <!-- Background -->
-    <div class="background"></div>
+<div class="question-container container">
+<video class="local-gif" src="Reply me love.mp4" autoplay muted loop></video>
+  <h2 class="Do you love me?">Do You Love Me?</h2>
+  <div class="button-container">
+    <button class="yes-btn btn js-yes-btn">Yes</button>
+    <button class="no-btn btn js-no-btn">No</button>
+  </div>
+</div>
+<div class="result-container container">
+  <video class="gif-result" src="Love me.mp4" autoplay loop></video>
+  <h2>I knew it😍!</h2>
+</div>
 
-    <!-- ===============================
-         QUESTION SECTION
-    ================================ -->
-
-    <section class="question-container container">
-
-        <video class="local-gif" autoplay muted loop playsinline>
-            <source src="Reply me love.mp4" type="video/mp4">
-        </video>
-
-        <h1 class="title">
-            Do You Love Me? ❤️
-        </h1>
-
-        <p class="subtitle">
-            Think carefully before answering 😏
-        </p>
-
-        <div class="button-container">
-
-            <button class="btn yes-btn js-yes-btn">
-                Yes ❤️
-            </button>
-
-            <button class="btn no-btn js-no-btn">
-                No 😢
-            </button>
-
-        </div>
-
-    </section>
-
-    <!-- ===============================
-         HEART LOADER
-    ================================ -->
-
-    <div class="cssload-main">
-
-        <div class="cssload-heart">
-
-            <span class="cssload-heartL"></span>
-
-            <span class="cssload-heartR"></span>
-
-            <span class="cssload-square"></span>
-
-        </div>
-
-        <div class="cssload-shadow"></div>
-
-    </div>
-
-    <!-- ===============================
-         RESULT SECTION
-    ================================ -->
-
-    <section class="result-container container">
-
-        <video class="gif-result" autoplay loop playsinline>
-
-            <source src="Love me.mp4" type="video/mp4">
-
-        </video>
-
-        <h2 class="result-title">
-
-            Mission Complete 💘
-
-        </h2>
-
-        <p class="result-text">
-
-            Now you officially owe me a hug 🤗
-
-        </p>
-
-        <button class="btn replay-btn" onclick="location.reload()">
-
-            Play Again 💕
-
-        </button>
-
-    </section>
-
-    <script src="script.js"></script>
+<div class="cssload-main">
+  <div class="cssload-heart">
+    <span class="cssload-heartL"></span>
+    <span class="cssload-heartR"></span>
+    <span class="cssload-square"></span>
+  </div>
+  <div class="cssload-shadow"></div>
+</div>
+<script src="script.js"></script>
 
 </body>
-
 </html>
